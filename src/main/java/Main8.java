@@ -22,4 +22,16 @@ public class Main8 {
         }
         return count;
     }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingrese la longitud de la cadena de ADN: ");
+        int length = scanner.nextInt();
+
+        String dna = generarRandomADN(length);
+        System.out.println("La cadena de ADN generada es: " + dna);
+        System.out.println("Número de genes (presencia de 'ATG'): " + contarGenes(dna));
+
+        scanner.close();
+    }
 }
