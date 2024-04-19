@@ -6,6 +6,10 @@ public class Main1 {
             return n + sumaNaturales(n - 1);
         }
     }
+
+    public static void main(String[] args) {
+        System.out.println("Suma de los primeros 5 numeros naturales: " + sumaNaturales(5));
+    }
 }
 
 
