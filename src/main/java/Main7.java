@@ -10,4 +10,17 @@ public class Main7 {
         }
         return coeficienteBinomial(n - 1, k) + coeficienteBinomial(n - 1, k - 1);
     }
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingrese n: ");
+        int n = scanner.nextInt();
+
+        System.out.print("Ingrese k: ");
+        int k = scanner.nextInt();
+
+        System.out.println("C(" + n + ", " + k + ") = " + coeficienteBinomial(n, k));
+
+        scanner.close();
+    }
 }
