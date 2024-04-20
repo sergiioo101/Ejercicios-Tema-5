@@ -1,7 +1,7 @@
 import java.util.*;
 import java.text.*;
 
-public class Main12 {
+public class Ejer_12 {
     public static void main(String[] args) throws ParseException {
         Scanner scanner = new Scanner(System.in);
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
